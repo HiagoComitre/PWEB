@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulários</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>Faça sua identificação</h2>
+
+<hr>
+
+<!--Primeiro formulário-->
+<form> <!--action="processa.php" -->
+	<p>Login: </p>
+	<input type="text" name="Login">
+	
+	<br>
+	
+	<p>Senha: </p>
+	<input type="password" name="Senha">
+	
+	<br>
+	
+	<hr width="20%" align="left">
+	
+	<!--esse apenas é um botao-->
+	<input type="button" name="" value="Entrar">
+	
+	<br>
+	
+	<!--esse é um botao mas que faz submissão de dados-->
+	<input type="submit" name="" value="Enviar dados">
+
+</form>
+
+<hr>
+
+<!--Segundo formulário-->
+<h2>CADASTRO DO USUÁRIO</h2>
+<form>
+	<p>Login:</p>
+	<input type="text" name="Login">
+	<br>
+
+	<p>Sexo:</p>
+	<input type="radio" name="Sexo" value="M"> Masculino 
+	<br>
+	<input type="radio" name="Sexo" value="F"> Feminino 
+	<br>
+	<input type="radio" name="Sexo" value="A"> Alternativo 
+	<br>
+
+	<p>Interesses:</p>
+	<input type="checkbox" name="Interesses" value="Carros"> Carros 
+	<br>
+	<input type="checkbox" name="Interesses" value="Cursos de Programção"> Cursos de Programção 
+	<br>
+	<input type="checkbox" name="Interesses" value="Tecnolgia"> Tecnolgia 
+	<br>
+	<input type="checkbox" name="Interesses" value="Praia"> Praia 
+	<br>
+
+	<p>Estado do Brasil:</p>
+	<select name="Estado">
+		<option value="SP">SP</option>
+		<option value="SC">SC</option>
+		<option value="RJ">RJ</option>
+		<option value="RS">RS</option>
+		<option value="AM">AM</option>
+	</select>
+	<p>Estado Civil:</p>
+	<input type="radio" name="EstadoCivil" value="Casado"> Casado 
+	<br>
+	<input type="radio" name="EstadoCivil" value="Solteiro"> Solteiro 
+	<br>
+	<input type="radio" name="EstadoCivil" value="Outro"> Outro 
+	<br>
+
+	<p>Observações: (escreva algo que goste de nos informar)</p>
+	<textarea></textarea>
+	<br>
+
+	<input type="submit" name="" value="Cadastrar">
+</form>
+
+</body>
+</html>
