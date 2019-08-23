@@ -1,0 +1,64 @@
+/*BASICOS*/
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul a {
+	height: 40px;
+	display: block;
+	background: url(../imagens/menu.png) no-repeat left center;
+	text-indent: 30px;
+	line-height: 40px;
+	color: black;
+}
+a:hover {
+	background-position: right center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*IDS*/
+#container {
+	width: 740px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#marca{
+	background: gray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center
+}
+
+#conteudo{
+	float: right;
+	border: 1px red solid;
+	width: 520px;
+}
+
+#navegacao{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+	border: 1px red solid;
+}
+
+#rodape{
+	border: 1px red solid;
+	clear: both;
+}
+/*CLASSES*/

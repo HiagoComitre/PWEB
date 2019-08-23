@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS" , Helvetica, sans-serif;
+	background: #e6e6e6;
+	background-image: url("fundo.jpg");
+	background-size: 400px
+}
+
+p{
+}
+
+h2 {
+	color: #f7b600;
+} 
+
+h4 {
+	font-size: 0.8em;
+}
+
+li {
+	padding: 10px 0px
+}
+/*
+**** Layout ****
+*/
+
+.links-contato {
+	padding-left: 30px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-size: 1.5em;
+}
+
+
+.links-contato a:link, .links-contato a:visited {
+	padding: 8px 12px;
+	color: #f7b600;
+}
+
+.links-contato a:hover {
+	color: #f7b600;
+	background-color: #FFF;
+	text-decoration: none;
+}
+
+#area-top{
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo , #area-menu{
+	padding: 10px;
+}
+
+#area-main {
+	background-color: #E6E6E6;
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+#area-post, #area-right {
+	background-color: #f7b600;
+}
+#area-post{
+	width: 660px;
+	float: left;
+}
+
+#area-right{
+	width: 240px;
+	float: right;
+}
+
+#area-bottom {
+	clear: both;
+	color: black;
+	text-align: center;
+	padding: 15px;
+	background-color: #CCC;
+}
+
+.date-post{
+	color: #f7b600;
+	font-size: 0.8em;
+	border-bottom: 2px solid #E6E6E6;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+
+	/*nesse caso ele esta com um elemento inline que não vai ate o final. Assim configurando display: block ele se comprotará como um elemento do tipo bloco*/
+	display: block;
+}
+.posts {
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.right-post{
+	background-color: white;
+}
+
+.title-post{
+	background-color: gray;
+	padding:20px 5px 5px 5px;
+}
+
+.content-post{
+	columns: 1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+
+}
+#right-menu{
+
+}
+
+
+.content-main-post {
+	padding-bottom: 15px;
+	columns: 2;
+}
+
+
+/*
+**** formations of menu ****
+*/
+img {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #f7b600;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*==============================*/
+#area-top a:link, #area-top a:visited {
+	padding: 8px 12px;
+	color: #FFF;
+	font-size: 1.3em;
+}
+
+#area-top a:hover {
+	color: #f7b600;
+	background-color: #FFF;
+	text-decoration: none;
+}
+/*===============================*/
+
+/*
+**** formations ****
+*/
+
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+.white{
+	color: white;
+}

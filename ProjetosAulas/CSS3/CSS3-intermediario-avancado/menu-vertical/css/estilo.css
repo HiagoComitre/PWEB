@@ -1,0 +1,67 @@
+
+/* TESTE DE MENU
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 400px;
+}
+
+li {
+	border: 1px solid red;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background:url(../imagens/seta.png) no-repeat left center;
+*/
+
+
+/* MENU VERTICAL*/
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+ul a{
+	background: #f7b600 url(../imagens/menu.png) no-repeat left center;
+	display: block;
+	width: 200px;
+	/*border: 1px solid red;*/
+	height: 40px;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+}
+
+/* aplicar essa class .selecionado em <li> */
+a:hover /*, .selecionado a*/{
+	/*background-position: right bottom;*/
+	/*MESMAS COISA ABAIXO E ACIMA*/
+	background: url(../imagens/menu.png) no-repeat right center;
+	color: #fff;
+	background-color: #f99200
+}
+
+#home .home a ,
+#sobre .sobre a,
+#servicos .servicos a,
+.noticias a,
+#contato .contato a {
+	background-position: right bottom;
+	color: #fff;
+	background-color: #f99200;
+}
+
+/*SOLUCAO DO HIAGO
+a:link, a:visited {
+	background: url(../imagens/menu.png) no-repeat left center;
+}
+
+a:hover {
+	background: url(../imagens/menu.png) no-repeat right center;
+}
+
+*/
