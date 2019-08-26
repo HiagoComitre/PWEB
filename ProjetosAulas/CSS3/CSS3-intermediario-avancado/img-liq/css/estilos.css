@@ -1,0 +1,108 @@
+/*BASICOS*/
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul a {
+	height: 40px;
+	display: block;
+	background: url(../imagens/menu.png) no-repeat left center;
+	text-indent: 30px;
+	line-height: 40px;
+	color: black;
+}
+a:hover {
+	background-position: right center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*IDS*/
+#container {
+	width: 1280px;
+	margin: 0 auto;
+	background: #fff;
+	min-width: 600px;
+}
+
+#marca{
+	background: white url("../imagens/cabecalho.jpg") no-repeat center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	height: 300px;
+}
+
+#conteudo{
+	float: right;
+	/*border: 1px red solid;*/
+	width: 88%;
+}
+
+
+#navegacao{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 11%;
+	/*border: 1px red solid;*/
+}
+
+#rodape{
+	/*border: 1px red solid;*/
+	clear: both;
+}
+
+#conteudo-primario{
+	width: 70%;
+	padding: 0;
+	/*border: solid 2px red;*/
+	float: left;
+}
+
+#conteudo-secundario{
+	width: 20%;
+	padding: 0 1%;
+	margin: 0;
+	/*border: solid 2px red;*/
+	float: right;
+	background: gray;
+	color: white;
+}
+
+#logo{
+	padding-top: 50px;
+}
+/*CLASSES*/
+img.img-noticia{
+	width: 100%;
+	height: 400px;
+}
+.c1{
+	float: left;
+	width: 45%;
+	padding: 0;
+}
+
+.c2{
+	float: right;
+	width: 45%;
+	padding: 0;
+}
+.detalhe1{
+	background: gray;
+	height: 20px;
+	width: 100%
+}
